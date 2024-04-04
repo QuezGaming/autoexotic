@@ -152,7 +152,7 @@
 
     alert('Order submitted!');
 
-    var discordWebhookURL = 'https://discord.com/api/webhooks/1172689142472261662/1CO9BIheSlBDC4SFoOoU0ZtlXSyEGB-HIk-pxLulHTJ5VR-CdirWiVdGHFh_4S_Daq65';
+    var discordWebhookURL = 'https://discord.com/api/webhooks/1225326682978914364/ZUP6Law9Lv8pHygA_Q-zrTWrJuyeF0hgd879Jv9wATF_6hDcLDrAQaSyMqY7oxhkFMRS';
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', discordWebhookURL, true);
