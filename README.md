@@ -333,8 +333,8 @@ function resetCalculator() {
   <h3> Repairs </h3>
   
   <div>
-    <input type="checkbox" id="ColinChoice" value="1400"><!--The price is the value, change that and then the name and itll change on the menu-->
-    <label for="ColinChoice">Standard Repair (D-S Class) - 1,400$</label>
+    <input type="checkbox" id="ColinChoice" value="500"><!--The price is the value, change that and then the name and itll change on the menu-->
+    <label for="ColinChoice">Standard Repair (D-S Class) - 500$</label>
     <input type="number" value="1" min="1">
   </div>
   
@@ -343,26 +343,26 @@ function resetCalculator() {
   <h3>Misc.</h3>
 
 <div>
-  <input type="checkbox" id="MysteryGift" value="325" >
-  <label for="MysteryBox">Single Lockpick - $325</label>
-  <input type="number" value="1" min="1">
-</div>
-
-<div>
-  <input type="checkbox" id="MysteryGift" value="1500" >
-  <label for="MysteryBox">Adavanced Lockpick - $1500</label>
-  <input type="number" value="1" min="1">
-</div>
-
-<div>
   <input type="checkbox" id="MysteryGift" value="350" >
-  <label for="MysteryBox">Basic Repair Kit - $350</label>
+  <label for="MysteryBox">Single Lockpick - $350</label>
   <input type="number" value="1" min="1">
 </div>
 
 <div>
-  <input type="checkbox" id="MysteryGift" value="1000" >
-  <label for="MysteryBox">Advanced Repair Kit(Free for Leo) - $1000</label>
+  <input type="checkbox" id="MysteryGift" value="650" >
+  <label for="MysteryBox">Adavanced Lockpick - $650</label>
+  <input type="number" value="1" min="1">
+</div>
+
+<div>
+  <input type="checkbox" id="MysteryGift" value="400" >
+  <label for="MysteryBox">Basic Repair Kit - $400</label>
+  <input type="number" value="1" min="1">
+</div>
+
+<div>
+  <input type="checkbox" id="MysteryGift" value="600" >
+  <label for="MysteryBox">Advanced Repair Kit(Free for Leo) - $600</label>
   <input type="number" value="1" min="1">
 </div>
 
@@ -373,25 +373,13 @@ function resetCalculator() {
 </div>
 
 <div>
-  <input type="checkbox" id="MysteryGift" value="25000" >
-  <label for="MysteryBox">Harness - $25000</label>
-  <input type="number" value="1" min="1">
-</div>
-
-<div>
-  <input type="checkbox" id="MysteryGift" value="15000" >
-  <label for="MysteryBox">Nos - $15000</label>
-  <input type="number" value="1" min="1">
-</div>
-
-<div>
   <input type="checkbox" id="MysteryGift" value="1000" >
   <label for="MysteryBox">Car Polish(1-2 days) - $1000</label>
   <input type="number" value="1" min="1">
   
   <div>
-  <input type="checkbox" id="MysteryGift" value="2000" >
-  <label for="MysteryBox">Fantastic Wax (3-4 days)</label>
+  <input type="checkbox" id="MysteryGift" value="1500" >
+  <label for="MysteryBox">Fantastic Wax (3-4 days) - $1500</label>
   <input type="number" value="1" min="1">
 </div>
 
@@ -413,17 +401,29 @@ function resetCalculator() {
   <input type="number" value="1" min="1" max="1">
 </div>
 
+<div>
+  <input type="checkbox" id="50off" value="-50%">
+  <label for="50off">EMS, DOJ Discount - 50% off</label>
+  <input type="number" value="1" min="1" max="1">
+</div>
+
+<div>
+  <input type="checkbox" id="50off" value="-30%">
+  <label for="50off">Police Discount - 30% off</label>
+  <input type="number" value="1" min="1" max="1">
+</div>
+
 <h3> Towing </h3>
   
   <div>
-    <input type="checkbox" id="ColinChoice" value="300"><!--The price is the value, change that and then the name and itll change on the menu-->
-    <label for="ColinChoice">Los Santos - 300$</label>
+    <input type="checkbox" id="ColinChoice" value="500"><!--The price is the value, change that and then the name and itll change on the menu-->
+    <label for="ColinChoice">Los Santos - 500$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
-    <input type="checkbox" id="JudysChoice" value="700">
-    <label for="JudysChoice">Sandy - 700$    $</label>
+    <input type="checkbox" id="JudysChoice" value="750">
+    <label for="JudysChoice">Sandy - 750$    $</label>
     <input type="number" value="1" min="1">
   </div>
   
@@ -447,6 +447,16 @@ function resetCalculator() {
 
 <div>
     <label for="name">Mechanic's Name:</label>
+    <input type="text" id="name">
+  </div>
+
+  <div>
+    <label for="name">Customer's Name:</label>
+    <input type="text" id="name">
+  </div>
+
+  <div>
+    <label for="name">Customer's State ID:</label>
     <input type="text" id="name">
   </div>
   
